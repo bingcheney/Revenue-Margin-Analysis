@@ -173,29 +173,3 @@ This marks the end of the introduction on the revenue margin analysis framework.
 3. **Looking at each product itself, how has it performed at an operational level?**
 
 I hope you now have a different understanding of how to analyze the product complex with regard to its revenue margin development. And you should definitely try this idea for other similar topics of your real job.
-
----
-
-## 📊 Key Takeaways
-
-- **VMM Perspective** helps you understand the overall product mix and structure impact
-- **PCQ Perspective** provides operational insights into price, cost, and quantity drivers
-- **Combined Analysis** enables strategic and operational decision-making
-- **Benchmarking** (average margin/margin rate) is crucial for evaluating product performance
-
----
-
-## 🎨 Color Legend
-
-The formulas in this document use color-coded variables for clarity:
-
-- <span style="color: #0F9ED5">**Cyan (#0F9ED5)**: FY25 current year values</span>
-- <span style="color: #EC6602">**Orange (#EC6602)**: FY24 base year values</span>
-- <span style="color: #B4A8FF">**Purple (#B4A8FF)**: Quantity-related variables</span>
-- <span style="color: #00B050">**Green (#00B050)**: Margin-related variables</span>
-- <span style="color: #FF66FF">**Pink (#FF66FF)**: Average/benchmark values</span>
-- <span style="color: #F8BB4E">**Gold (#F8BB4E)**: Price-related variables</span>
-
----
-
-*Last Updated: January 2026*
