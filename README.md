@@ -24,7 +24,7 @@ Starting with FY24 Revenue Margin of 100, if we assume **only quantity changes**
 
 ### Volume Effect
 
-**Volume Effect** = ( FY25 Total Quantity (F12) x FY24 A Quantity Share (G2) – FY24 A Quantity (F2) ) x FY24 A Margin (E2) = ( 80 x 26.7% -20 ) x 5 = **6.6667**
+**Volume Effect** = ( <span style="color: #0F9ED5">FY25 Total Quantity (F12)</span> x <span style="color: #EC6602">FY24 A Quantity Share (G2)</span> – <span style="color: #B4A8FF">FY24 A Quantity (F2</span>) ) x <span style="color: #00B050">FY24 A Margin (E2)</span> = ( 80 x 26.7% -20 ) x 5 = **6.6667**
 
 *Effect from volume change excluding the impact of product structure change*
 
@@ -36,7 +36,7 @@ Let's continue with product A at revenue margin of 106.6667. Now we **add one mo
 
 ![Mix Effect Analysis](./images/image3.png)
 
-**Mix Effect** = ( FY25 A Quantity (F9) - FY25 Total Quantity (F12) x FY24 A Quantity Share (G2) ) x FY24 A Margin (E2) = (25 – 80 x 26.7%) x 5 = **18.3333**
+**Mix Effect** = ( <span style="color: #0F9ED5">FY25 A Quantity (F9)</span> - <span style="color: #EC6602">FY25 Total Quantity (F12)</span> x <span style="color: #B4A8FF">FY24 A Quantity Share (G2</span>) ) x <span style="color: #00B050">FY24 A Margin (E2)</span> = (25 – 80 x 26.7%) x 5 = **18.3333**
 
 *Effect from product structure change*
 
@@ -48,7 +48,7 @@ Final step before reaching FY25 actual revenue margin. Now we **add the last var
 
 ![Margin Effect Analysis](./images/image4.png)
 
-**Margin Effect** = FY25 A Quantity (F9) x ( FY25 A Margin (E9) - FY24 A Margin (E2) ) = 25 x (10 – 5) = **125**
+**Margin Effect** = <span style="color: #B4A8FF">FY25 A Quantity (F9</span>) x ( <span style="color: #0F9ED5">FY25 A Margin (E9)</span> - <span style="color: #EC6602">FY24 A Margin (E2</span>) ) = 25 x (10 – 5) = **125**
 
 *Effect from product margin change*
 
@@ -70,7 +70,7 @@ Take product A as an example:
 
 ![Structural Optimization - Absolute](./images/image6.png)
 
-**Structural Optimization Contribution (RM abs)** = ( FY25 A Quantity (F9) - FY25 Total Quantity (F12) x FY24 A Quantity Share (G2) ) x ( FY24 A Margin (E2) – FY24 AVG Margin (E5) ) = (25 – 80 x 26.7%) x (5 – 10) = **-18.3333**
+**Structural Optimization Contribution (RM abs)** = ( <span style="color: #0F9ED5">FY25 A Quantity (F9)</span> - <span style="color: #EC6602">FY25 Total Quantity (F12)</span> x <span style="color: #B4A8FF">FY24 A Quantity Share (G2</span>) ) x ( <span style="color: #00B050">FY24 A Margin (E2)</span> – <span style="color: #FF66FF">FY24 AVG Margin (E5</span>) ) = (25 – 80 x 26.7%) x (5 – 10) = **-18.3333**
 
 *Contribution to structural optimization in relation to the average margin*
 
@@ -82,7 +82,7 @@ Take product A as an example:
 
 What if we use the **average revenue margin rate** as a benchmark? In addition to replacing the average margin with the average margin rate, we need to **add the price as a multiplier.**
 
-**Structural Optimization Contribution (RM %)** = ( FY25 A Quantity (F9) - FY25 Total Quantity (F12) x FY24 A Quantity Share (G2) ) x ( FY24 A Margin Rate (J2) – FY24 AVG Margin Rate (J5) ) x FY24 A Price (C2) = (25 – 80 x 26.7%) x (25% – 29.4%) x 20 = **-3.2353**
+**Structural Optimization Contribution (RM %)** = ( <span style="color: #0F9ED5">FY25 A Quantity (F9)</span> - <span style="color: #EC6602">FY25 Total Quantity (F12)</span> x <span style="color: #B4A8FF">FY24 A Quantity Share (G2</span>) ) x ( <span style="color: #00B050">FY24 A Margin Rate (J2)</span> – <span style="color: #FF66FF">FY24 AVG Margin Rate (J5</span>) ) x <span style="color: #F8BB4E">FY24 A Price (C2)</span> = (25 – 80 x 26.7%) x (25% – 29.4%) x 20 = **-3.2353**
 
 *Contribution to structural optimization in relation to the average margin rate*
 
@@ -92,7 +92,7 @@ As we can see, two benchmarks give different results. Let's look at the differen
 
 ![Price Structure Variance](./images/image8.png)
 
-**Price Structure Variance** = ( FY25 A Quantity (F9) - FY25 Total Quantity (F12) x FY24 A Quantity Share (G2) ) x FY24 A AVG Margin Rate (J5) x ( FY24 A Price (C2) - FY24 AVG Price (C5) ) = (25 – 80 x 26.7%) x 29.4% x ( 20 - 34) = **-15.0980**
+**Price Structure Variance** = ( <span style="color: #0F9ED5">FY25 A Quantity (F9)</span> - <span style="color: #EC6602">FY25 Total Quantity (F12)</span> x <span style="color: #B4A8FF">FY24 A Quantity Share (G2</span>) ) x <span style="color: #00B050">FY24 A AVG Margin Rate (J5)</span> x ( <span style="color: #FF66FF">FY24 A Price (C2)</span> - <span style="color: #F8BB4E">FY24 AVG Price (C5</span>) ) = (25 – 80 x 26.7%) x 29.4% x ( 20 - 34) = **-15.0980**
 
 From the formula, we can see that the **pricing difference** of our products is the root cause of the difference between two benchmarks' results.
 
@@ -118,7 +118,7 @@ First, we **keep cost and quantity unchanged and only change the price to FY25 l
 
 ### Price Effect
 
-**Price Effect** = ( FY25 A Price (C9) - FY24 A Price (C2) ) x FY24 A Quantity (F2) = (30 – 20) x 20 = **200**
+**Price Effect** = ( <span style="color: #0F9ED5">FY25 A Price (C9)</span> - <span style="color: #EC6602">FY24 A Price (C2</span>) ) x <span style="color: #B4A8FF">FY24 A Quantity (F2</span>) = (30 – 20) x 20 = **200**
 
 *Effect from product price change*
 
@@ -128,7 +128,7 @@ Second, we **keep price and quantity unchanged and only change the cost to FY25 
 
 ### Cost Effect
 
-**Cost Effect** = - ( FY25 A Cost (D9) - FY24 A Cost (D2) ) x FY24 A Quantity (F2) = - (20 – 15) x 20 = **-100**
+**Cost Effect** = - ( <span style="color: #0F9ED5">FY25 A Cost (D9)</span> - <span style="color: #EC6602">FY24 A Cost (D2</span>) ) x <span style="color: #B4A8FF">FY24 A Quantity (F2</span>) = - (20 – 15) x 20 = **-100**
 
 *Effect from product cost change*
 
@@ -138,7 +138,7 @@ Third, we **keep price and cost unchanged and only change the quantity to FY25 l
 
 ### Quantity Effect
 
-**Quantity Effect** = ( FY25 A Quantity (F9) - FY24 A Quantity (F2) ) x ( FY24 A Price (C2) - FY24 A Cost (D2) ) = (25 – 20) x (20 – 15) = **25**
+**Quantity Effect** = ( <span style="color: #B4A8FF">FY25 A Quantity (F9)</span> - <span style="color: #00B050">FY24 A Quantity (F2</span>) ) x ( <span style="color: #0F9ED5">FY24 A Price (C2)</span> - <span style="color: #EC6602">FY24 A Cost (D2</span>) ) = (25 – 20) x (20 – 15) = **25**
 
 *Effect from product quantity change*
 
@@ -148,7 +148,7 @@ Last, since we are dealing with 3 variables, after we have done the exercises be
 
 ### Cross Term
 
-**Cross Term** = ( FY25 A Quantity (F9) - FY24 A Quantity (F2) ) x ( ( FY25 A Price (C9) - FY24 A Price (C2) ) - ( FY25 A Cost (D9) - FY24 A Cost (D2) ) ) = (25 – 20) x ( (30 – 20) - (20 – 15) ) = **25**
+**Cross Term** = ( <span style="color: #FF66FF">FY25 A Quantity (F9)</span> - <span style="color: #F7C600">FY24 A Quantity (F2</span>) ) x ( ( <span style="color: #0F9ED5">FY25 A Price (C9)</span> - <span style="color: #EC6602">FY24 A Price (C2</span>) ) - ( <span style="color: #B4A8FF">FY25 A Cost (D9)</span> - <span style="color: #00B050">FY24 A Cost (D2</span>) ) ) = (25 – 20) x ( (30 – 20) - (20 – 15) ) = **25**
 
 *Part of changed revenue margin from additional quantity with additional price-cost margin*
 
@@ -182,6 +182,19 @@ I hope you now have a different understanding of how to analyze the product comp
 - **PCQ Perspective** provides operational insights into price, cost, and quantity drivers
 - **Combined Analysis** enables strategic and operational decision-making
 - **Benchmarking** (average margin/margin rate) is crucial for evaluating product performance
+
+---
+
+## 🎨 Color Legend
+
+The formulas in this document use color-coded variables for clarity:
+
+- <span style="color: #0F9ED5">**Cyan (#0F9ED5)**: FY25 current year values</span>
+- <span style="color: #EC6602">**Orange (#EC6602)**: FY24 base year values</span>
+- <span style="color: #B4A8FF">**Purple (#B4A8FF)**: Quantity-related variables</span>
+- <span style="color: #00B050">**Green (#00B050)**: Margin-related variables</span>
+- <span style="color: #FF66FF">**Pink (#FF66FF)**: Average/benchmark values</span>
+- <span style="color: #F8BB4E">**Gold (#F8BB4E)**: Price-related variables</span>
 
 ---
 
