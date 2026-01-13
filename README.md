@@ -76,11 +76,11 @@ Take product A as an example:
 
 **Basic principle here:** the bigger portion of quantity is with our higher-than-average margin products, the more favorable is for our business structure!
 
+What if we use the **average revenue margin rate** as a benchmark? In addition to replacing the average margin with the average margin rate, we need to **add the price as a multiplier.**
+
 ### Structural Optimization Contribution (RM %)
 
 ![Structural Optimization - Margin Rate](./images/image7.png)
-
-What if we use the **average revenue margin rate** as a benchmark? In addition to replacing the average margin with the average margin rate, we need to **add the price as a multiplier.**
 
 **Structural Optimization Contribution (RM %)** = ( <span style="color: #0F9ED5">FY25 A Quantity (F9)</span> - <span style="color: #EC6602">FY25 Total Quantity (F12)</span> x <span style="color: #B4A8FF">FY24 A Quantity Share (G2</span>) ) x ( <span style="color: #00B050">FY24 A Margin Rate (J2)</span> – <span style="color: #FF66FF">FY24 AVG Margin Rate (J5</span>) ) x <span style="color: #F8BB4E">FY24 A Price (C2)</span> = (25 – 80 x 26.7%) x (25% – 29.4%) x 20 = **-3.2353**
 
@@ -173,3 +173,5 @@ This marks the end of the introduction on the revenue margin analysis framework.
 3. **Looking at each product itself, how has it performed at an operational level?**
 
 I hope you now have a different understanding of how to analyze the product complex with regard to its revenue margin development. And you should definitely try this idea for other similar topics of your real job.
+
+(You can download the case study excel file from the above repository and play around on it)
