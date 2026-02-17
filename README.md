@@ -132,11 +132,11 @@ Second, we **keep price and quantity unchanged and only change the cost to FY25 
 
 *Effect from product cost change*
 
-![Cost Effect Analysis](./images/image12.png)
-
 Third, we **keep price and cost unchanged and only change the quantity to FY25 level**.
 
 ### Quantity Effect
+
+![Cost Effect Analysis](./images/image12.png)
 
 **Quantity Effect** = ( <span style="color: #B4A8FF">FY25 A Quantity (F9)</span> - <span style="color: #00B050">FY24 A Quantity (F2</span>) ) x ( <span style="color: #0F9ED5">FY24 A Price (C2)</span> - <span style="color: #EC6602">FY24 A Cost (D2</span>) ) = (25 – 20) x (20 – 15) = **25**
 
