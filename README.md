@@ -16,13 +16,13 @@ Here, we provide an analytical framework which consists of two perspectives: top
 
 ## Let's start with the Volume-Mix-Margin Perspective (VMM)
 
-![VMM Overview](./images/image2.png)
-
 On the global perspective, we can just **consider margin (price – cost) and quantity in a two-factor analysis**, how can we break the total revenue margin change of 360 into different drivers? By **controlling variables step by step**. Let's take product A as an example:
 
 Starting with FY24 Revenue Margin of 100, if we assume **only quantity changes**, while **margin and quantity share remain FY24 level (thus no product structure change)**, how much more revenue margin can we have?
 
 ### Volume Effect
+
+![VMM Overview](./images/image2.png)
 
 **Volume Effect** = ( <span style="color: #0F9ED5">FY25 Total Quantity (F12)</span> x <span style="color: #EC6602">FY24 A Quantity Share (G2)</span> – <span style="color: #B4A8FF">FY24 A Quantity (F2</span>) ) x <span style="color: #00B050">FY24 A Margin (E2)</span> = ( 80 x 26.7% -20 ) x 5 = **6.6667**
 
@@ -108,8 +108,6 @@ Still take product A as example, the increased revenue margin is **mainly driven
 
 ## Price-Cost-Quantity Perspective (PCQ)
 
-![PCQ Introduction](./images/image10.png)
-
 But how to improve further on product A's margin? For that we need to look at product A separately on an operational level. That's where the second perspective - **Price-Cost-Quantity Perspective (PCQ)** plays a role. In this analysis, we break the revenue margin change down to the three basic factors – **price, cost and quantity**. How? **Still by controlling variables.**
 
 Product A has a revenue margin change of 150, which is a mixed result from price, cost and quantity changes.
@@ -118,15 +116,17 @@ First, we **keep cost and quantity unchanged and only change the price to FY25 l
 
 ### Price Effect
 
+![PCQ Introduction](./images/image10.png)
+
 **Price Effect** = ( <span style="color: #0F9ED5">FY25 A Price (C9)</span> - <span style="color: #EC6602">FY24 A Price (C2</span>) ) x <span style="color: #B4A8FF">FY24 A Quantity (F2</span>) = (30 – 20) x 20 = **200**
 
 *Effect from product price change*
 
-![Price Effect Analysis](./images/image11.png)
-
 Second, we **keep price and quantity unchanged and only change the cost to FY25 level**.
 
 ### Cost Effect
+
+![Price Effect Analysis](./images/image11.png)
 
 **Cost Effect** = - ( <span style="color: #0F9ED5">FY25 A Cost (D9)</span> - <span style="color: #EC6602">FY24 A Cost (D2</span>) ) x <span style="color: #B4A8FF">FY24 A Quantity (F2</span>) = - (20 – 15) x 20 = **-100**
 
@@ -148,11 +148,11 @@ Last, since we are dealing with 3 variables, after we have done the exercises be
 
 ### Cross Term
 
+![Cross Term Analysis](./images/image13.png)
+
 **Cross Term** = ( <span style="color: #FF66FF">FY25 A Quantity (F9)</span> - <span style="color: #F7C600">FY24 A Quantity (F2</span>) ) x ( ( <span style="color: #0F9ED5">FY25 A Price (C9)</span> - <span style="color: #EC6602">FY24 A Price (C2</span>) ) - ( <span style="color: #B4A8FF">FY25 A Cost (D9)</span> - <span style="color: #00B050">FY24 A Cost (D2</span>) ) ) = (25 – 20) x ( (30 – 20) - (20 – 15) ) = **25**
 
 *Part of changed revenue margin from additional quantity with additional price-cost margin*
-
-![Cross Term Analysis](./images/image13.png)
 
 Now, let's look at the complete results of PCQ.
 
